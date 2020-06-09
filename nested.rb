@@ -108,8 +108,9 @@ def changing_alan
         :languages => ["C"]
       }
     }
-
+    programmer_hash[:alans_new_info] = programmer_hash.delete[:known_for]
 end
+
 
 def adding_to_dennis
   # add "Assembly" to Dennis Ritchie's languages array
