@@ -108,7 +108,7 @@ def changing_alan
         :languages => ["C"]
       }
     }
-    programmer_hash(:alans_new_info) = programmer_hash.delete(:known_for)
+    programmer_hash[:known_for] = "GUI"
 end
 
 
